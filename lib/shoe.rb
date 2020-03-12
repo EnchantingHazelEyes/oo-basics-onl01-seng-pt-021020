@@ -1,6 +1,6 @@
 class Shoe
   
-attr_accessor :color , :size , :material , :condition
+attr_accessor :color , :size , :material , :condition = "new"
 attr_reader :brand
 
   def initialize(brand)
@@ -13,4 +13,3 @@ attr_reader :brand
   
 end
 
-condition = Shoe.new("new")
