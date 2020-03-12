@@ -12,7 +12,7 @@ attr_reader :brand
   end
   
   def condition
-    @condition = "new"
+    @condition = condition
   end
   
   
